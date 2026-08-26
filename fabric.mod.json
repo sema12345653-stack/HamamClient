@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "ourmod",
+  "version": "${version}",
+  "name": "OurMod",
+  "description": "A clean client-side Minecraft 1.21.4 mod with a modern GUI.",
+  "authors": [
+    "OurMod Team"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.ourmod.Client"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric-api": "*",
+    "minecraft": "1.21.4",
+    "java": ">=21"
+  }
+}
